@@ -3,12 +3,6 @@ using namespace std;
 
 int main()
 {
-    //*#define is used in old c/c++
-    //*It is better to use const
-    const double Num{333.333};
-    cout << Num << endl
-         << "Size of const double " << sizeof(const double) << endl;
-
     long Num1{123456};
     cout << Num1 << endl
          << "Size of long " << sizeof(long) << endl;
@@ -34,5 +28,17 @@ int main()
     int x{12}, y{15}, z{41};
     av = static_cast<double>(x + y + z) / sub;
     cout << av << endl;
+
+    //*#define is used in old c/c++
+    //*It is better to use const
+    const double Num{333.333};
+    cout << Num << endl
+         << "Size of const double " << sizeof(const double) << endl;
+
+    enum Direction {
+     up,down,left,right,forward,back
+     };
+    Direction one (right);
+    cout<<one<<endl;
     return 0;
 }
