@@ -13,7 +13,7 @@ int main()
     v2d.push_back(v1);
     v2d.push_back(v2);
 
-    //! We can write nested for loops
+    //! We can write nested ranged based for loops
     //* for (int i = 0; i < v1.size(); i++)
     //* {
     //*    for (int j = 0; j < v1.size(); j++)
