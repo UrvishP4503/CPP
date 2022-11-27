@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "header/movies.h"
+#include "movies.h"
 
 void increment_watched(Movies &movies, std::string name);
 void add_movie(Movies &movies, std::string name, std::string rating, int watched);
