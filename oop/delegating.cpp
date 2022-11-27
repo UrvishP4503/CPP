@@ -17,7 +17,7 @@ public:
     Player(std::string name_val, int health_val, int xp_val);
     /**
      * @brief Constructor parameter as default values
-     * //*Player(std::string name_val, int health_val=150, int xp_val=0);
+     **Player(std::string name_val, int health_val=150, int xp_val=0);
      */
 };
 
