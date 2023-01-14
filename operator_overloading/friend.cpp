@@ -6,11 +6,7 @@ private:
     int a;
     int b;
 public:
-    Complex(int a = 0,int b = 0)
-    {
-        this->a = a;
-        this->b = b;
-    }
+    Complex(int a = 0,int b = 0) :a{a},b{b}{}
     void Display()
     {
         std::cout<<a<<" + "<<b<<"i \n";
