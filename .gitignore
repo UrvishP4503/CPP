@@ -1,9 +1,2 @@
-Vector/a.out
-Intro/a.out
-Loop/a.out
-string/a.exe
-function/a.exe
-dma_pointer/a.exe
-array/test.cpp
-operator_overloading/a.exe
-oop/movie/main.exe
+*.exe
+*.out
